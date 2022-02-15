@@ -1,0 +1,75 @@
+:root {
+  --primari-text-color: (#757575);
+  --title-text-color: (#212121);
+  --accent-color: (#2196f3);
+}
+
+.page {
+  background-color: #e5e5e5;
+  color: var(--primari-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background-color: #ffffff;
+}
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Contact */
+
+.contact .contact-link {
+  color: var(--primari-text-color);
+}
+
+.contact .contact-link:hover,
+.contact .contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.features-list .title {
+  color: var(--title-text-color);
+}
+
+/* основной цвет background: #212121; */
+
+/* вторичный  background: #757575; */
+
+/* белый background: #FFFFFF; */
+
+/* акцент background: #2196F3; */
+
+/* контакты без неактивном состоянии и абзац background: #757575; */
+
+/* контакты в футере background: #FFFFFF99;   rgba(0, 0, 0, 0.6) */
+
+/* фон шапки background: #FFFFFF; */
+/* фон героя и футер background: #2F303A; */
+/* фон команда background: #F5F4FA; */
